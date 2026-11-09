@@ -1,0 +1,11 @@
+:root { --fond: #fbfaf7; --texte: #22211f; --doux: #5f5c56; --lien: #1f5fae; }
+@media (prefers-color-scheme: dark) {
+  :root { --fond: #1b1a18; --texte: #ecebe7; --doux: #a9a59c; --lien: #8ab4f0; }
+}
+body { background: var(--fond); color: var(--texte); font: 17px/1.6 system-ui, sans-serif;
+       max-width: 42rem; margin: 0 auto; padding: 2rem 1rem; }
+h1 { font-size: 1.7rem; margin-bottom: .2rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+p.sous { color: var(--doux); margin-top: 0; }
+a { color: var(--lien); }
+footer { margin-top: 3rem; color: var(--doux); font-size: .9rem; }
