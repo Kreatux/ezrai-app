@@ -17,14 +17,17 @@
 <ul>
 <li><strong>Gmail, en lecture seule</strong> (<code>gmail.readonly</code>) : expéditeur, objet et court
 extrait des nouveaux e-mails.</li>
-<li><strong>Google Agenda, en lecture seule</strong> (<code>calendar.readonly</code>) : liste des agendas
-et des événements.</li>
+<li><strong>Google Agenda, en lecture seule</strong> (<code>calendar.readonly</code>) : heure, titre et
+lieu des événements du jour. Ni description, ni participants.</li>
 </ul>
+<p>Pour estimer les temps de trajet, le lieu des rendez-vous et l'adresse de départ du propriétaire sont
+transmis à Google Maps (API Routes), qui renvoie une durée et une distance.</p>
 <p>Ezraï ne demande aucun droit d'envoi, de modification ou de suppression.</p>
 
 <h2>Utilisation</h2>
 <p>Ces données servent uniquement à préparer, pour le propriétaire lui-même, un tri quotidien de ses
-e-mails (« à traiter », « pour info », « publicité ») et un résumé de son agenda. Le tri est fait par un
+e-mails (« à traiter », « pour info », « publicité ») et un résumé de son agenda avec les temps de
+trajet entre ses rendez-vous. Le tri est fait par un
 modèle d'IA installé sur le serveur privé d'Ezraï, hébergé en France : le contenu des e-mails n'est
 envoyé à aucun service d'IA extérieur.</p>
 <p>Le résumé (expéditeur et objet) est envoyé au propriétaire sur sa messagerie privée. Le contenu des
